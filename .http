@@ -5,7 +5,7 @@ POST {{host}}/register
 Content-Type: application/json
 
 {
-  "email": "foo@bar.baz",
+  "username": "foo@bar.baz",
   "password": "foobar"
 }
 
@@ -15,7 +15,7 @@ POST {{host}}/login
 Content-Type: application/json
 
 {
-  "email": "foo@bar.baz",
+  "username": "foo@bar.baz",
   "password": "foobar"
 }
 
